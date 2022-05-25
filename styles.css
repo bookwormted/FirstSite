@@ -44,7 +44,8 @@ ul {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
+  background-color: white;
+  color: red;
 }
 
 .dropdown-content {
