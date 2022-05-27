@@ -34,7 +34,7 @@ ul {
   outline: none;
   color: white;
   padding: 14px 16px;
-  width: 160px;
+  width: 162px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -44,6 +44,7 @@ ul {
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
   background-color: white;
   color: black;
+
 }
 
 !.navbar a:hover, !.dropdown:hover !.dropbtn, !.dropbtn:focus {
@@ -59,6 +60,8 @@ ul {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: center; 
+  border: 1px solid;
+  border-top: none;
   
 }
 
@@ -69,13 +72,17 @@ ul {
   text-decoration: none;
   display: block;
   text-align: center;
+  
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .show {
   display: block;
+  
 }
 
