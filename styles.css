@@ -85,11 +85,38 @@ ul {
   display: block;
   
 }
-
 .nothing-block-container {
-       position: reletive;
-       height: 100%;
-       width: 100%;
-       background-color: black;
-           
-}     
+position: absolute;
+display: table-cell;
+  vertical-align: middle;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+ 
+.nothing {
+  position: relative; 
+  top: 50%;
+  margin: 0 auto;
+  background: black;
+  display: table;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.wakeup {
+  display: block;
+  cursor: pointer;
+  font-size: 25px;  
+  border: 3px solid; 
+  padding: 14px 16px;
+  margin: 0;
+  border-color: white;
+  
+}
+.plain-link {
+  color: white;
+  text-decoration: none;
+  align: center
+}
