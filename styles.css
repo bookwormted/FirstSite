@@ -86,3 +86,10 @@ ul {
   
 }
 
+.nothing-block-container {
+       position: reletive;
+       height: 100%;
+       width: 100%;
+       background-color: black;
+           
+}     
