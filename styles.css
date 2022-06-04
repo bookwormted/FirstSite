@@ -120,3 +120,8 @@ display: table-cell;
   text-decoration: none;
   align: center
 }
+
+mirror {
+       unicode-bidi:bidi-override;
+       direction:rtl;
+}
