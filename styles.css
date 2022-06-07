@@ -127,3 +127,14 @@ mirror {
   -o-transform:rotateY(180deg);
   -ms-transform:rotateY(180deg);
 }
+/* FEATURED POSTS */
+.featured-posts{
+       padding-block: 2rem;
+       
+}
+.section-header-offset{
+       margin-top: 7.4rem:
+}
+.featured-posts-container, .featured-content{
+       gap: var(--gap);
+}
