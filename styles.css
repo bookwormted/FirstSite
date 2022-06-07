@@ -127,6 +127,16 @@ mirror {
   -o-transform:rotateY(180deg);
   -ms-transform:rotateY(180deg);
 }
+/* reusable classes */
+.display-items-center{
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+}
+.d-grid{
+       display: grid;
+}
+
 /* FEATURED POSTS */
 .featured-posts{
        padding-block: 2rem;
