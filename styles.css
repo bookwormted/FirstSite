@@ -158,6 +158,23 @@ display: table-cell;
 }
 
 .headline span{
-height: inherit;
+       height: inherit;
 }
 
+.fancy-border{
+       position: relative;
+       overflow: hidden;
+}
+
+.fancy-border::before{
+       content: '';
+       position: relative;
+       top: 0;
+       left: 0;
+       width: 200%;
+       height: 100%;
+       /* background: ; */
+       background-sze: 50% 100%;
+       z-index: 5;
+       
+}
