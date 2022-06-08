@@ -118,12 +118,6 @@ display: table-cell;
   align: center
 }
 
-mirror {
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
-}
 /* reusable classes */
 .display-items-center{
        display: inline-flex;
@@ -147,10 +141,23 @@ mirror {
 }
 
 .headline-banner{
+      /* background-color: ; */
        display: flex;
        align-items: center;
        gap: var(--gap);
        font-size: var(--font-size-xsm);
 }
 
+.headline{
+       font-size: 1rem;
+       text-transform: uppercase;
+       text-align: center;
+       padding: 4rem;
+       height: 100%;
+       
+}
+
+.headline span{
+height: inherit;
+}
 
