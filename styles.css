@@ -18,9 +18,6 @@ ul {
   
 }
 
-
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -148,3 +145,12 @@ mirror {
 .featured-posts-container, .featured-content{
        gap: var(--gap);
 }
+
+.headline-banner{
+       display: flex;
+       align-items: center;
+       gap: var(--gap);
+       font-size: var(--font-size-xsm);
+}
+
+
